@@ -1,0 +1,17 @@
+This program will allow the user to enter items and auto calculate the total price.
+
+var _ItemName
+var _ItemPrice
+var _ItemQty
+var _TotalPrice
+var add_item = “true”
+WHILE add_item == “true”
+	_ItemName = input user
+	_ItemPrice = input user
+	_ItemQty = input user
+	_TotalPrice += _ItemPrice * _ItemQty
+	IF no items are added
+		add_item = “false” 
+	END IF
+END WHILE LOOP
+PRINT _TotalPrice
